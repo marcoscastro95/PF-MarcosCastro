@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Roboto:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+/*FONDO DE SITIO WEB*/
+body {
+  font-family: Arial, sans-serif;
+  max-width: 100%;
+}
+.error404 {
+  margin: 0;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding: 12px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+.container-error404 {
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0px 1px 10px rgb (0, 0, 0, 0.3);
+  border-radius: 5px;
+  line-height: 1.8;
+}
+.boton4 {
+  display: inline-block;
+  margin-top: 15x;
+  text-decoration: none;
+  background: rgb(95, 122, 110);
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+.mar {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.texterror {
+  color: rgb(255, 255, 255);
+}

@@ -1,0 +1,372 @@
+/*RUTAS DE ESTILOS*/ /*VARIABLES*/
+@import url("https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Roboto:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+/*FONDO DE SITIO WEB*/
+body {
+  font-family: Arial, sans-serif;
+  max-width: 100%;
+}
+
+.error404 {
+  margin: 0;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding: 12px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.container-error404 {
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0px 1px 10px rgb 0, 0, 0, 0.3;
+  border-radius: 5px;
+  line-height: 1.8;
+}
+
+.boton4 {
+  display: inline-block;
+  margin-top: 15x;
+  text-decoration: none;
+  background: rgb(95, 122, 110);
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.mar {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.texterror {
+  color: rgb(255, 255, 255);
+}
+
+/*PAGINA CONTACTO*/
+/*CUADRO DE MENSAJERIA*/
+.nombre {
+  width: 400px;
+  height: 40px;
+  background-color: rgb(39, 65, 55);
+  color: rgb(209, 196, 173);
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+.email {
+  width: 400px;
+  height: 40px;
+  background-color: rgb(39, 65, 55);
+  color: rgb(209, 196, 173);
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+.row,
+con {
+  padding: 3px;
+}
+
+.botonenvio {
+  margin: 15px;
+  padding: 3px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.formcont {
+  color: wheat;
+  font-family: "Arial", sans-serif;
+  font-size: 48px;
+  text-align: center;
+}
+
+.contac {
+  font-family: "Arial", sans-serif;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+.mensaje {
+  background-color: rgb(39, 65, 55);
+  width: 400px;
+  height: 120px;
+  color: rgb(209, 196, 173);
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+.form-control {
+  color: rgb(209, 196, 173);
+}
+
+.elenvio {
+  background-color: rgb(1, 146, 90);
+  border: 4px solid rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 1020px) {
+  .formcont {
+    color: wheat;
+    font-family: "Arial", sans-serif;
+    font-size: 28px;
+    text-align: center;
+  }
+}
+footer {
+  height: 100%;
+}
+footer .containerRedes {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 30px;
+  padding: 10px 0px;
+}
+footer .containerCopyright {
+  display: flex;
+  background-color: rgb(8, 0, 0);
+  justify-content: center;
+  width: 100%;
+  align-items: baseline;
+  gap: 20px;
+  padding: 30px;
+}
+footer .textHorario {
+  color: rgb(209, 196, 173);
+  background-color: rgb(8, 0, 0);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  text-align: center;
+  border: 2px solid rgb(255, 255, 255);
+}
+footer .textCopyright {
+  color: #a4a4a4;
+  font-size: 13px;
+}
+footer .buttonCopyright {
+  font-size: 13px;
+  padding: 5px;
+  border-radius: 5px;
+}
+@media (max-width: 900px) {
+  footer .textHorario {
+    font-size: 14px;
+  }
+  footer .containerRedes {
+    justify-content: center;
+  }
+  footer .containerCopyright {
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+  }
+}
+
+.containerNombre {
+  padding: 0px 20px;
+}
+
+header .containerSection {
+  padding: 0px 20px;
+}
+header .navbarCustom {
+  background-image: linear-gradient(to left, rgb(0, 0, 0), rgb(70, 70, 69));
+}
+header .buttonToggler {
+  background-color: white;
+  margin: 10px 0px;
+}
+header .navDropdown {
+  justify-content: center;
+}
+header .navItemCustom {
+  background-color: transparent;
+  font-size: 20px;
+}
+header nav .nav-item :hover {
+  color: rgb(209, 196, 173);
+}
+header nav .nav-link {
+  color: white;
+}
+header nav .nav-link.active {
+  color: #198754 !important;
+}
+header nav .logoFerreteria {
+  width: 250px;
+}
+@media screen and (max-width: 900px) {
+  header nav .logoFerreteria {
+    width: 100%;
+  }
+  header nav .navbarMobile {
+    align-items: center;
+  }
+  header nav .containerToggler {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  header nav .containerSearch {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 10px 0px;
+  }
+}
+
+.subtIndex {
+  color: rgb(209, 196, 173);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Arial", sans-serif;
+  font-size: 70px;
+  padding: 20px 0px;
+}
+
+.carouselCustom {
+  padding: 0px 40px;
+}
+
+.imgCarousel {
+  width: 100%;
+  max-height: 688px;
+}
+
+.videoIndex {
+  max-width: 900px;
+  padding: 20px 0px;
+}
+
+.textCard {
+  text-align: end;
+}
+
+@media screen and (max-width: 900px) {
+  .videoIndex {
+    padding: 20px;
+  }
+  .carouselCustom {
+    padding: 0px 20px;
+  }
+  .imgCarousel {
+    width: 100%;
+    max-height: 374px;
+  }
+  .textCard {
+    text-align: center;
+  }
+}
+/*PAGINA OFERTAS*/
+.card-body1 {
+  background-color: rgb(8, 0, 0);
+  color: rgb(209, 196, 173);
+  font-family: "Arial", sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+.card-body1 .card-title1 {
+  background-color: rgb(8, 0, 0);
+  color: rgb(209, 196, 173);
+  font-family: "Arial", sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+.card-body1 .card-text1 {
+  background-color: rgb(8, 0, 0);
+  color: rgb(209, 196, 173);
+  font-family: "Arial", sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+.card-body1 .off1 {
+  color: rgb(255, 0, 0);
+  text-decoration: line-through;
+}
+
+/*TITULOS*/
+.titulo {
+  background-image: linear-gradient(to left, rgb(5, 5, 5), rgb(128, 128, 128));
+  color: rgb(209, 196, 173);
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  padding: 10px;
+  text-align: center;
+}
+
+/*SUBTITULOS DE SECCIONES*/
+.subtitulo {
+  color: rgb(209, 196, 173);
+  font-family: "Arial", sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+
+.containerCard {
+  height: 1050px;
+}
+
+.containerButtons {
+  display: flex;
+  justify-content: end;
+  width: 100%;
+  gap: 10px;
+}
+
+@media screen and (max-width: 900px) {
+  .containerCard {
+    height: auto;
+    margin-bottom: 20px;
+  }
+  .containerButtons {
+    justify-content: center;
+  }
+}
+body {
+  background-image: url("../public/images/21omxpw-768x480.jpg");
+  color: rgb(3, 3, 3);
+  max-width: 100%;
+}
+
+.call-to-action {
+  background-color: rgb(95, 122, 110);
+}
+
+.secundaryButton {
+  background-color: rgb(27, 141, 52);
+  padding: 5px 10px;
+  color: white;
+  border: 1px solid rgb(27, 141, 32);
+  border-radius: 10px;
+}
+
+.bot {
+  display: flexbox;
+}
+
+/*# sourceMappingURL=estilos.css.map */

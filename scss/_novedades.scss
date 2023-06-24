@@ -1,0 +1,19 @@
+.containerCard{
+  height: 1050px;
+}
+.containerButtons{
+  display: flex;
+  justify-content: end;
+  width: 100%;
+  gap: 10px;
+}
+
+@media screen and (max-width: 900px) {
+  .containerCard{
+    height: auto;
+    margin-bottom: 20px;
+  }
+  .containerButtons{
+    justify-content: center;
+  }
+}

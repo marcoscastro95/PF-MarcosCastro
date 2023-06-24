@@ -1,0 +1,13 @@
+.call-to-action {
+  background-color: map-get($botones, call-to-action);
+}
+.secundaryButton {
+  background-color: map-get($botones, boton-secundario);
+  padding: 5px 10px;
+  color: white;
+  border: 1px solid rgb(27, 141, 32);
+  border-radius: 10px;
+}
+.bot {
+  display: flexbox;
+}

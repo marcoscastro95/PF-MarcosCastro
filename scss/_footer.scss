@@ -1,0 +1,50 @@
+//FOOTER REDES Y HORARIOS
+footer {
+  height: 100%;
+  .containerRedes {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 30px;
+    padding: 10px 0px;
+  }
+  .containerCopyright{
+    display: flex;
+    background-color: $color-fondo;
+    justify-content: center;
+    width: 100%;
+    align-items: baseline;
+    gap: 20px;
+    padding: 30px;
+  }
+  .textHorario {
+    color: $color-letra;
+    background-color: $color-fondo;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    text-align: center;
+    border: 2px solid rgb(255, 255, 255);
+  }
+  .textCopyright {
+    color: $text-color;
+    font-size: 13px;
+  }
+  .buttonCopyright{
+    font-size: 13px;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  @media (max-width: 900px) {
+    .textHorario {
+      font-size: 14px;
+    }
+    .containerRedes{
+      justify-content: center;
+    }
+    .containerCopyright{
+      flex-direction: column;
+      align-items: center;
+      gap: 0px;
+    }
+  }
+}
